@@ -4,19 +4,6 @@ define(["jquery", "cookie"], function($){
 	$.ajax("/html/include/header.html").done(function(data){
 		$(".header").html(data);
 	}).done(function(){
-		// 绑定查找的键盘按键事件
-		$(".search .word").keyup(function(){
-			var url = "https://suggest.taobao.com/sug?code=utf-8&q="+ $(this).val() +"&callback=?";
-			$.getJSON(url, function(data){
-				var html = "";
-				data.result.forEach(function(curr){
-					html += "<div>"+ curr[0] +"</div>"
-				});
-
-				$(".search .info").html(html);
-			});
-		});
-	}).done(function(){
 		// 如果有用户登录成功，则显示欢迎信息
 		var user = $.cookie("loginUser");
 		if (user)
@@ -26,3 +13,17 @@ define(["jquery", "cookie"], function($){
 	// 将 footer.html 加载显示到 div.footer 中
 	$(".footer").load("/html/include/footer.html");
 });
+// .done(function(){
+// 		// 绑定查找的键盘按键事件
+// 		$(".search .word").keyup(function(){
+// 			var url = "https://suggest.taobao.com/sug?code=utf-8&q="+ $(this).val() +"&callback=?";
+// 			$.getJSON(url, function(data){
+// 				var html = "";
+// 				data.result.forEach(function(curr){
+// 					html += "<div>"+ curr[0] +"</div>"
+// 				});
+
+// 				$(".search .info").html(html);
+// 			});
+// 		});
+// 	})

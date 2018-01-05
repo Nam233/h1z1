@@ -1,0 +1,44 @@
+.content{
+	background: url(../images/login.jpg) no-repeat -250px 0px;
+	height: 900px;
+	position: relative;
+	.container{
+		position: absolute;
+		left: 20px;
+		top: 200px;
+		.well{
+			border: 1px solid #0f3356;
+			background: #132435;
+			.text-center{
+				color: #0b84d3;
+				font-size: 18px;
+			}
+			.input-group{
+				margin-top: 15px;
+				.input-group-addon{
+					background-color: #132232;
+					border: 1px solid #0f3356;
+					i {
+						color: #0385d4;
+				}
+			}
+				.form-control{
+					border: 1px solid #0f3356;
+					background-color: #132232;
+				}
+			}
+			.checkbox{
+				label{
+					color: white;
+					span{
+						color: #0b84d3;
+					}
+				}
+			}
+			.btn{
+				background-color: #184c86;
+				border: none;
+			}
+		}
+	}
+}

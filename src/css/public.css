@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  background: #131519;
+  color: #c9c9c9;
+  height: 40px;
+  position: relative;
+  line-height: 40px;
+  z-index: 889;
+}
+
+header a {
+  color: #3c8a0d;
+}
+
+header a:hover {
+  color: #c9c9c9;
+}
+
+header .hhh {
+  width: 95%;
+  background: #131519;
+  height: 40px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+header .hhh div {
+  float: left !important;
+  font-size: 12px;
+}
+
+header .hhh div:hover {
+  color: white;
+}
+
+header .hhh ul {
+  float: right;
+}
+
+header .hhh li {
+  float: left !important;
+  margin: 0 12px;
+  cursor: pointer;
+  font-size: 12px;
+  list-style: none;
+}
+
+header .hhh li:hover {
+  color: white;
+}
+
+.logo {
+  background-color: #1b2632;
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: #14202d;
+  position: relative;
+  z-index: 888;
+  opacity: 0.9;
+}
+
+.logo a {
+  display: block;
+  position: absolute;
+  top: 26px;
+  left: 31px;
+  width: 268px;
+  height: 41px;
+  background: url(../images/logo.png) no-repeat;
+}
+
+footer {
+  height: 298px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #111922;
+}
+
+footer .link {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+}
+
+footer .link h3 {
+  color: white;
+  font-size: 16px;
+}
+
+footer .link ul {
+  width: 230px;
+}
+
+footer .link .ul_3 {
+  width: 280px;
+}
+
+footer .link .ul_3 li {
+  width: 70px;
+  margin-right: 10px;
+  margin-top: 15px;
+  float: left;
+}
+
+footer .link .ul_3 li:nth-child(3) {
+  text-align: center;
+}
+
+footer .link .ul_3 li:nth-child(6) {
+  text-align: center;
+}
+
+footer .link .ul_3 li:nth-child(4) {
+  margin-left: 35px;
+}
+
+footer .link .ul_3 li:nth-child(7) {
+  margin-left: 35px;
+}
+
+footer .link .ul_4 {
+  width: 320px;
+  margin-left: 100px;
+}
+
+footer .link .ul_4 li {
+  float: left;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+footer .link li {
+  list-style: none;
+  color: #9aafc9;
+  line-height: 25px;
+}
+
+footer .link li:hover {
+  cursor: pointer;
+  color: white;
+}
+
+footer .text {
+  margin: 5px;
+  color: #657d9b;
+  text-align: center;
+}

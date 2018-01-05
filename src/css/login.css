@@ -1,0 +1,52 @@
+.content {
+  background: url(../images/login.jpg) no-repeat -250px 0px;
+  height: 900px;
+  position: relative;
+}
+
+.content .container {
+  position: absolute;
+  left: 20px;
+  top: 200px;
+}
+
+.content .container .well {
+  border: 1px solid #0f3356;
+  background: #132435;
+}
+
+.content .container .well .text-center {
+  color: #0b84d3;
+  font-size: 18px;
+}
+
+.content .container .well .input-group {
+  margin-top: 15px;
+}
+
+.content .container .well .input-group .input-group-addon {
+  background-color: #132232;
+  border: 1px solid #0f3356;
+}
+
+.content .container .well .input-group .input-group-addon i {
+  color: #0385d4;
+}
+
+.content .container .well .input-group .form-control {
+  border: 1px solid #0f3356;
+  background-color: #132232;
+}
+
+.content .container .well .checkbox label {
+  color: white;
+}
+
+.content .container .well .checkbox label span {
+  color: #0b84d3;
+}
+
+.content .container .well .btn {
+  background-color: #184c86;
+  border: none;
+}

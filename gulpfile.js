@@ -8,7 +8,7 @@ let gulp = require("gulp"),
 // 启动服务器
 gulp.task("connect", function(){
 	connect.server({
-		root : "dist",
+		root : "src",
 		livereload : true,
 		port : 8080
 	});
@@ -51,8 +51,8 @@ gulp.task("copy", ["lib", "images", "mock"]);
 // 编译SASS
 gulp.task("sass", function(){
 	gulp.src("src/sass/*.scss")
-		.pipe(sass({outputStyle:"compressed"}))
-		.pipe(gulp.dest("src/sass"))
+		.pipe(sass({outputStyle:"expanded"}))
+		.pipe(gulp.dest("src/css"))
 		.pipe(connect.reload());
 });
 
