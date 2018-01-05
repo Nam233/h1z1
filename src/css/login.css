@@ -7,7 +7,7 @@
 .content .container {
   position: absolute;
   left: 20px;
-  top: 200px;
+  top: 300px;
 }
 
 .content .container .well {
@@ -49,4 +49,27 @@
 .content .container .well .btn {
   background-color: #184c86;
   border: none;
+}
+
+.content .container .well .server {
+  color: #0b84d3;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.content .container .well .server span {
+  cursor: pointer;
+}
+
+.content .container .well p {
+  color: white;
+}
+
+.content .container .well a {
+  display: block;
+  width: 80px;
+  height: 66px;
+  background: url(../images/oauth1.png) no-repeat;
+  margin: 10px auto;
 }

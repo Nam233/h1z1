@@ -5,7 +5,7 @@
 	.container{
 		position: absolute;
 		left: 20px;
-		top: 200px;
+		top: 300px;
 		.well{
 			border: 1px solid #0f3356;
 			background: #132435;
@@ -38,6 +38,25 @@
 			.btn{
 				background-color: #184c86;
 				border: none;
+			}
+			.server{
+				color: #0b84d3;
+				display: flex;
+				justify-content: space-between;
+				margin: 20px 0; 
+				span{
+					cursor: pointer;
+				}
+			}
+			p{
+				color: white;
+			}
+			a{
+				display: block;
+				width: 80px;
+				height: 66px;
+				background: url(../images/oauth1.png) no-repeat;
+				margin: 10px auto;
 			}
 		}
 	}
