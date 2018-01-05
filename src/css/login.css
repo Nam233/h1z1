@@ -1,12 +1,12 @@
 .content {
-  background: url(../images/login.jpg) no-repeat -250px 0px;
-  height: 900px;
+  background: url(../images/login.jpg) no-repeat 0px 0px;
+  height: 800px;
   position: relative;
 }
 
 .content .container {
   position: absolute;
-  left: 20px;
+  right: 20px;
   top: 300px;
 }
 
