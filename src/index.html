@@ -40,6 +40,15 @@
 				</ul>
 			</div>
 		</nav>
+		<div class="banner">
+			<ul>
+				<li><img src="images/nav_1.jpg"></li>
+				<li><img src="images/nav_2.jpg"></li>
+				<li><img src="images/nav_3.jpg"></li>
+				<li><img src="images/nav_4.jpg"></li>
+				<li><img src="images/nav_5.jpg"></li>
+			</ul>
+		</div>
 		<div class="product">
 			<div class="kind">
 				<div class="title">
@@ -241,6 +250,19 @@
 	</div>
 
 	<div class="footer"></div>
-
+	<script type="text/javascript">
+		console.log($(".test"));
+		var hhh = 0;
+		var move = (function(){
+			hhh -= 660;
+			if (hhh <= -3300){
+				hhh = 0;
+			}
+			console.log(hhh);
+			// $(".banner ul").css("marginTop" , hhh + 'px');
+			$(".banner ul").animate({marginTop:  hhh + 'px'}, 300);
+		});
+		var timer = setInterval(move, 10000);
+	</script>
 </body>
 </html>
