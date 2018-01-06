@@ -31,7 +31,6 @@ header .hhh {
   background: #131519;
   height: 40px;
   margin: 0 auto;
-  opacity: 0.9;
 }
 
 header .hhh div {
@@ -60,14 +59,13 @@ header .hhh li:hover {
 }
 
 .logo {
-  background-color: #1b2632;
+  background: rgba(18, 28, 39, 0.8);
+  box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.3);
   height: 100px;
   width: 100%;
   box-sizing: border-box;
-  border-bottom: #14202d;
   position: relative;
   z-index: 888;
-  opacity: 0.9;
 }
 
 .logo a {
