@@ -27,7 +27,7 @@ header a:hover {
 }
 
 header .hhh {
-  width: 95%;
+  width: 1200px;
   background: #131519;
   height: 40px;
   margin: 0 auto;
@@ -68,11 +68,18 @@ header .hhh li:hover {
   z-index: 888;
 }
 
-.logo a {
+.logo .con {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo .con a {
   display: block;
   position: absolute;
   top: 26px;
-  left: 31px;
+  left: 0px;
   width: 268px;
   height: 41px;
   background: url(../images/logo.png) no-repeat;
@@ -86,7 +93,7 @@ footer {
 }
 
 footer .link {
-  width: 95%;
+  width: 1200px;
   margin: 0 auto;
   margin-top: 45px;
   display: flex;

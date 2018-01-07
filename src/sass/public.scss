@@ -20,7 +20,7 @@ header{
 		}
 	}
 	.hhh{
-		width: 95%;
+		width: 1200px;
 		background: #131519;
 		height: 40px;
 		margin: 0 auto;		
@@ -55,15 +55,22 @@ header{
 		box-sizing: border-box;
 		position: absolute;
 		z-index: 888;
-		a{
-			display: block;
-			position: absolute;
-			top: 26px;
-			left: 31px;
-			width: 268px;
-			height: 41px;
-			background: url(../images/logo.png) no-repeat;
+		.con{
+			width: 1200px;
+			height: 100px;
+			margin: 0 auto;
+			position: relative;
+			a{
+				display: block;
+				position: absolute;
+				top: 26px;
+				left: 0px;
+				width: 268px;
+				height: 41px;
+				background: url(../images/logo.png) no-repeat;
+			}
 		}
+		
 }
 footer{
 	height: 298px;
@@ -71,7 +78,7 @@ footer{
 	overflow: hidden;
 	background-color: #111922;
 	.link{
-		width: 95%;
+		width: 1200px;
 		margin: 0 auto;
 		margin-top: 45px;
 		display: flex;

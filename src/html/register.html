@@ -5,10 +5,48 @@
 	<title>IGXE注册页面</title>
 	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/public.css">
+	<link rel="stylesheet" type="text/css" href="../css/register.css">
 	<script src="../lib/requirejs/require.js" data-main="../js/index"></script>
 </head>
 <body>
 	<div class="header"></div>
+	<div class="main">
+		<!--登录框-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 well">
+					<h1 class="text-left">已有账号？<a href="/html/login.html">直接登录</a></h1>
+					<div class="input-group">
+						<span class="input-group-addon">
+							<i class="glyphicon glyphicon-user"></i>
+						</span>
+						<input type="text" placeholder="账号" class="form-control" name="">
+					</div>
+					<p>支持字母、数字、"-" "_"的组合，5-20个字符</p>
+					<div class="input-group">
+						<span class="input-group-addon">
+							<i class="glyphicon glyphicon-lock"></i>
+						</span>
+						<input type="password" placeholder="密码" class="form-control" name="">
+					</div>
+					<p>字母、数字和符号两种及以上的组合，6-20个字符</p>
+					<div class="input-group">
+						<span class="input-group-addon">
+							<i class="glyphicon glyphicon-lock"></i>
+						</span>
+						<input type="password" placeholder="确认密码" class="form-control" name="">
+					</div>
+					<div class="input-group">
+						<span class="input-group-addon">
+							<i class="glyphicon glyphicon-user"></i>
+						</span>
+						<input type="text" placeholder="真实姓名(选填)" class="form-control" name="">
+					</div>
+					<input type="submit" class="btn btn btn-info form-control" value="注册">
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="footer"></div>
 </body>
 </html>

@@ -1,13 +1,13 @@
 .content {
   background: url(../images/login.jpg) no-repeat center center;
   height: 800px;
-  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.3);
 }
 
 .content .container {
-  position: absolute;
-  right: 20px;
-  top: 300px;
+  margin: 0 auto;
+  margin-top: 300px;
 }
 
 .content .container .well {

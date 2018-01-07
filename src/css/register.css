@@ -1,0 +1,54 @@
+body {
+  background-color: #121C27;
+}
+
+.main {
+  height: 800px;
+  width: 100%;
+  box-shadow: 0 -4px 20px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: url(../images/regist.png) no-repeat center 180px;
+}
+
+.main .container {
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+.main .container .well {
+  border: none;
+  background: #121C27;
+}
+
+.main .container .well .text-left {
+  color: #0b84d3;
+  font-size: 16px;
+}
+
+.main .container .well .input-group {
+  margin: 15px auto;
+}
+
+.main .container .well .input-group .input-group-addon {
+  background-color: #132232;
+  border: 1px solid #0f3356;
+}
+
+.main .container .well .input-group .input-group-addon i {
+  color: #0385d4;
+}
+
+.main .container .well .input-group .form-control {
+  border: 1px solid #0f3356;
+  background-color: #132232;
+}
+
+.main .container .well .btn {
+  background-color: #184c86;
+  border: none;
+}
+
+.main .container .well p {
+  color: #acacac;
+  font-size: 12px;
+}
