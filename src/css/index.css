@@ -44,6 +44,48 @@ nav .content > ul > li:nth-child(2):hover ul {
   display: block;
 }
 
+nav .content > ul > li:last-child {
+  position: relative;
+}
+
+nav .content > ul > li:last-child .search {
+  right: 50px;
+  top: -60px;
+  position: absolute;
+  color: #fff;
+  width: 400px;
+  height: 30px;
+  border: 1px solid #133354;
+  background: rgba(21, 52, 87, 0.4);
+}
+
+nav .content > ul > li:last-child .search input {
+  height: 30px;
+  width: 298px;
+  border: 1px solid #133354;
+  float: left;
+  background: rgba(21, 52, 87, 0.4);
+}
+
+nav .content > ul > li:last-child .search button {
+  outline: none;
+  height: 30px;
+  width: 100px;
+  border: 1px solid #133354;
+  line-height: 30px;
+  background: rgba(21, 52, 87, 0.4);
+}
+
+nav .content > ul > li:last-child .search .info {
+  display: none;
+}
+
+nav .content > ul > li:last-child .img {
+  position: absolute;
+  top: -70px;
+  right: 470px;
+}
+
 nav .content > ul > li ul {
   position: absolute;
   display: none;
@@ -94,7 +136,7 @@ nav .content > ul > li ul li img {
 
 .product .kind {
   height: 470px;
-  width: 95%;
+  width: 96%;
   overflow: hidden;
   margin: 0 auto;
   margin-bottom: 20px;

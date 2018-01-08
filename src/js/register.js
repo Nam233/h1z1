@@ -3,5 +3,5 @@ require(["config"], function(){
 		$("#h1z1_li").click(function(){
 			location.href="/html/list.html";
 		})
-	})
+	});
 });

@@ -1,9 +1,6 @@
 body{
 	background-color:  #121C27;
 }
-
-
-
 nav{
 	box-sizing: border-box;
 	width: 100%;
@@ -34,7 +31,44 @@ nav{
 					ul{
 						display: block;
 					}
-				};
+				}
+				&:last-child{
+					position: relative;
+					.search{
+						right: 50px;
+						top: -60px;
+						position: absolute;
+						color: #fff;
+						width: 400px;
+						height: 30px;
+					    border: 1px solid #133354;
+					    background: rgba(21, 52, 87, .4);
+					    input{
+					    	height: 30px;
+					    	width: 298px;
+							border: 1px solid #133354;
+							float: left;
+					    	background: rgba(21, 52, 87, .4);
+					    }
+					    button{
+					    	outline: none;
+					    	height: 30px;
+					    	width: 100px;
+					    	border: 1px solid #133354;
+					    	line-height: 30px;
+					    	background: rgba(21, 52, 87, .4);
+					    }
+					    .info{
+					    	display: none;
+					    }
+					}
+					.img{
+						position: absolute;
+						top: -70px;
+						right: 470px;
+					}
+				}
+				
 				ul{
 					position: absolute;
 					display: none;
@@ -79,7 +113,7 @@ nav{
 	background-color: #121C27;
 	.kind{
 		height: 470px;
-		width: 95%;
+		width: 96%;
 		overflow: hidden;
 		margin: 0 auto;
 		margin-bottom: 20px;
