@@ -107,6 +107,25 @@ nav{
 			}
 		}
 	}
+	.circle{
+		position: absolute;
+		bottom: 30px;
+		left: 550px;
+		i{
+			float: left;
+			width: 10px;
+			height: 10px;
+			border-radius: 5px;
+			background-color: #317487;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+		.current{
+				background-color: #184C86;
+				width: 35px;
+				transition: all 0.2s;
+			}
+	}
 }
 .product{
 	width: 100%;

@@ -129,6 +129,28 @@ nav .content > ul > li ul li img {
   z-index: 123;
 }
 
+.banner .circle {
+  position: absolute;
+  bottom: 30px;
+  left: 550px;
+}
+
+.banner .circle i {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #317487;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.banner .circle .current {
+  background-color: #184C86;
+  width: 35px;
+  transition: all 0.2s;
+}
+
 .product {
   width: 100%;
   background-color: #121C27;
