@@ -15,7 +15,6 @@ body {
   width: 1200px;
   color: #FFF;
   height: 60px;
-  border-bottom: 1px solid #0F3356;
 }
 
 .main > .title a {
@@ -26,6 +25,75 @@ body {
   text-decoration: none;
   color: #0B84D3;
   cursor: pointer;
+}
+
+.main .con {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.main .con .img {
+  width: 360px;
+  height: 350px;
+  float: left;
+  padding: 40px;
+  border: 1px solid #0F3356;
+}
+
+.main .con .txt {
+  width: 360px;
+  margin-left: 20px;
+  height: 350px;
+  float: left;
+}
+
+.main .con .txt .title {
+  color: #fff;
+  font-size: 20px;
+}
+
+.main .con .txt > span {
+  color: #fff;
+}
+
+.main .con .txt .trans {
+  color: #fff;
+  margin: 20px 0;
+}
+
+.main .con .txt > div {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.main .con .txt .green {
+  color: #429605;
+}
+
+.main .con .txt .blue {
+  color: #0B84D3;
+}
+
+.main .con .txt .btn {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.main .con .txt .btn button {
+  color: #fff;
+  background-color: #4DB006;
+  width: 140px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.main .con .txt .btn button:hover {
+  background-color: #419305;
 }
 
 nav {

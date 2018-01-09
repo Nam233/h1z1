@@ -14,13 +14,69 @@ body{
 		width: 1200px;
 		color: #FFF;
 		height: 60px;
-		border-bottom: 1px solid #0F3356;
 		a{
 			color: #fff;
 			&:hover{
 				text-decoration : none;
 				color: #0B84D3;
 				cursor: pointer;
+			}
+		}
+	}
+	.con{
+		width: 1200px;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-bottom:80px;
+		.img{
+			width: 360px;
+			height: 350px;
+			float: left;
+			padding: 40px;
+			border: 1px solid #0F3356;
+		}
+		.txt{
+			width: 360px;
+			margin-left: 20px;
+			height: 350px;
+			float: left;
+			.title{
+				color: #fff;
+				font-size: 20px;
+			}
+			>span{
+				color: #fff;
+			}
+			.trans{
+				color: #fff;
+				margin: 20px 0;
+			}
+			>div{
+				color: #fff;
+				margin-bottom: 10px;
+			}
+			.green{
+				color: #429605;
+			}
+			.blue{
+				color: #0B84D3;
+			}
+			.btn{
+				padding: 0;
+				margin-top: 10px;
+				button{
+					color: #fff;
+					background-color: #4DB006;
+					width: 140px;
+					height: 40px;
+					border: none;
+					outline: none;
+					font-size: 16px;
+					margin-right: 20px;
+					&:hover{
+						background-color: #419305;
+					}
+				}
 			}
 		}
 	}

@@ -1,0 +1,21 @@
+body {
+  background-color: #121C27;
+  overflow-x: hidden;
+}
+
+.logo {
+  background-color: #1a2737;
+}
+
+.logo .con {
+  background: url(../images/cart_1.png) no-repeat center right;
+}
+
+.main .space {
+  height: 140px;
+}
+
+.main .title {
+  width: 1200px;
+  margin: 0 auto;
+}

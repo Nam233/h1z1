@@ -13,7 +13,7 @@
 require(["config"], function(){
 	require(["load"], function(){
 		$(".main .list .btn").click(function(){
-			location.href = "/html/detail.html";
+			location.href="/html/cart.html";
 		});
 		$(".main .list img").click(function(){
 			location.href = "/html/detail.html";
