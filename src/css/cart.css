@@ -12,10 +12,164 @@ body {
 }
 
 .main .space {
-  height: 140px;
+  height: 180px;
 }
 
 .main .title {
   width: 1200px;
   margin: 0 auto;
+  color: #C9C9C9;
+  font-size: 18px;
+  border-bottom: 1px solid #0F3356;
+  height: 40px;
+}
+
+.main .com-table {
+  width: 1200px;
+  height: 170px;
+  margin: 0 auto;
+}
+
+.main .com-table thead tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.main .com-table thead tr th {
+  text-align: center;
+  height: 80px;
+  color: #C9C9C9;
+  font-weight: 300;
+}
+
+.main .com-table tbody {
+  background-color: #151F2C;
+}
+
+.main .com-table tbody tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.main .com-table tbody tr td {
+  text-align: center;
+  height: 80px;
+  color: #C9C9C9;
+  font-weight: 300;
+}
+
+.main .com-table tbody tr td > img {
+  width: 70px;
+  height: 70px;
+}
+
+.main .com-table tbody tr .green {
+  color: #429605;
+}
+
+.main .return {
+  width: 1200px;
+  margin: 0 auto;
+  color: #0E84B2;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.main .confirm {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  border-bottom: 1px solid #0F3356;
+}
+
+.main .confirm .left {
+  width: 535px;
+  height: 350px;
+  float: left;
+  border: none;
+}
+
+.main .confirm .left .title {
+  width: 100%;
+}
+
+.main .confirm .left table {
+  margin-top: 30px;
+  color: #fff;
+}
+
+.main .confirm .left table tr {
+  height: 55px;
+}
+
+.main .confirm .left table tr td:first-child {
+  width: 100px;
+}
+
+.main .confirm .left table tr td input {
+  width: 410px;
+  height: 40px;
+  background-color: #151f2c;
+  border: 1px solid #0F3356;
+}
+
+.main .confirm .right {
+  width: 535px;
+  height: 350px;
+  float: right;
+  border: none;
+}
+
+.main .confirm .right .title {
+  width: 100%;
+}
+
+.main .confirm .right .content {
+  color: #429605;
+  margin: 10px;
+  text-indent: 2em;
+}
+
+.main .pay {
+  width: 1200px;
+  margin: 0 auto;
+  height: 150px;
+  position: relative;
+}
+
+.main .pay .money {
+  width: 800px;
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.main .pay .money > div {
+  color: #fff;
+  float: left;
+  margin-right: 45px;
+}
+
+.main .pay .money > div:last-child {
+  color: #429605;
+}
+
+.main .pay .btn {
+  width: 270px;
+  height: 48px;
+  background-color: #429605;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 70px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.main .pay .btn:hover {
+  background-color: #377D04;
 }

@@ -11,10 +11,143 @@ body{
 }
 .main{
 	.space{
-		height: 140px;
+		height: 180px;
 	}
 	.title{
 		width: 1200px;
 		margin: 0 auto;
+		color: #C9C9C9;
+		font-size: 18px;
+		border-bottom: 1px solid #0F3356;
+		height: 40px;
+	}
+	.com-table{
+		width: 1200px;
+		height: 170px;
+		margin: 0 auto;
+		thead{
+			tr{
+				display: table-row;
+    			vertical-align: inherit;
+    			border-color: inherit;
+				th{
+					text-align: center;
+					height: 80px;
+					color: #C9C9C9;
+					font-weight: 300;
+				}
+			}
+		}
+		tbody{
+			background-color: #151F2C;
+			tr{
+				display: table-row;
+    			vertical-align: inherit;
+    			border-color: inherit;
+				td{
+					text-align: center;
+					height: 80px;
+					color: #C9C9C9;
+					font-weight: 300;
+					>img{
+						width: 70px;
+						height: 70px;
+					}
+				}
+				.green{
+					color: #429605;
+				}
+			}
+		}
+	}
+	.return{
+		width: 1200px;
+		margin: 0 auto;
+		color: #0E84B2;
+		height: 60px;
+		line-height: 60px;
+		cursor: pointer;
+	}
+	.confirm{
+		width: 1200px;
+		height: 400px;
+		margin: 0 auto;
+		border-bottom: 1px solid #0F3356;
+		.left{
+			width: 535px;
+			height: 350px;
+			float: left;
+			border:none;
+			.title{
+				width: 100%;
+			}
+			table{
+				margin-top: 30px;
+				color: #fff;
+				tr{
+					height: 55px;
+					td{
+						&:first-child{
+							width: 100px;
+						}
+						input{
+							width: 410px;
+							height: 40px;
+							background-color: #151f2c;
+							border: 1px solid #0F3356;
+						}
+					}
+				}
+			}
+		}
+		.right{
+			width: 535px;
+			height: 350px;
+			float: right;
+			border:none;
+			.title{
+				width: 100%;
+			}
+			.content{
+				color: #429605;
+				margin: 10px;
+				text-indent: 2em;
+			}
+		}
+	}
+	.pay{
+		width: 1200px;
+		margin: 0 auto;
+		height: 150px;
+		position: relative;
+		.money{
+			width: 800px;
+			float: right;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			>div{
+				color: #fff;
+				float: left;
+				margin-right: 45px;
+				&:last-child{
+					color: #429605;
+				}
+			}
+		}
+		.btn{
+			width: 270px;
+			height: 48px;
+			background-color: #429605;
+			color: #fff;
+			font-size: 20px;
+			margin-top: 70px; 
+			position: absolute;
+			right: 0;
+			top: 10px;
+			&:hover{
+				background-color: #377D04;
+			}
+		}
 	}
 }
