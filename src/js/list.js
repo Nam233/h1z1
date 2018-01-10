@@ -9,15 +9,15 @@ require(["config"], function(){
 			$("#product_list").html(html);
 		});
 			$("#product_list").on('click','.btn',function(event) {
-				/* 商品名称   图片路径  在售数量  起价 */
 				var name = this.parentNode.childNodes[1].innerText,
 					img  = this.parentNode.childNodes[3].src,
-					num  = this.parentNode.childNodes[5].childNodes[1].innerText,
 					price= this.parentNode.childNodes[7].childNodes[1].innerText;
-				window.location.href="/html/cart.html?name="+name+"&src="+img+"&num="+num+"&price="+price;
+				var products = {'name':name,'src':img,'price':price};
+				window.location.href="/html/cart.html";
 			});
 			$("#product_list").on('click','img',function(event) {
 				/* Act on the event */
+				/* 商品名称   图片路径  在售数量  起价 */
 				var name = this.parentNode.childNodes[1].innerText,
 					img  = this.parentNode.childNodes[3].src,
 					num  = this.parentNode.childNodes[5].childNodes[1].innerText,
@@ -26,7 +26,12 @@ require(["config"], function(){
 			});
 			$("#product_list").on('click','.title',function(event) {
 				/* Act on the event */
-				window.location.href="/html/detail.html";
+				/* 商品名称   图片路径  在售数量  起价 */
+				var name = this.parentNode.childNodes[1].innerText,
+					img  = this.parentNode.childNodes[3].src,
+					num  = this.parentNode.childNodes[5].childNodes[1].innerText,
+					price= this.parentNode.childNodes[7].childNodes[1].innerText;
+				window.location.href="/html/detail.html?name="+name+"&src="+img+"&num="+num+"&price="+price;
 			});
 
 			// $(".main .list img").click(function(){

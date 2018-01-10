@@ -75,5 +75,16 @@
         </div>                  
 	</div>
 	<div class="footer"></div>
+    <script type="text/html" id="list_template">
+        {{each products as product}}
+        <li>
+            <div class="title">{{product.title}}</div>                  
+            <img src="{{product.img}}">
+            <div>在售数量：<span>{{product.num}}</span></div>
+            <div>起价：<span>{{product.price}}</span></div>
+            <div class="btn">购买</div>
+        </li>
+        {{/each}}
+    </script>
 </body>
 </html>
