@@ -162,111 +162,21 @@
 		</div>
 		<div class="list">
 			<div class="list_head"></div>
-			<ul>
-				<li>
-					<div class="title">Patriotic AR-15</div>					
-					<img src="../images/h1-amr.png">
-					<div>在售数量：<span>33</span></div>
-					<div>起价：<span>￥1126.98</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Frostbite AR-15</div>					
-					<img src="../images/h1-icear.png">
-					<div>在售数量：<span>38</span></div>
-					<div>起价：<span>￥178.40</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Nemesis AR-15</div>					
-					<img src="../images/h1-yuanjihua.png">
-					<div>在售数量：<span>39</span></div>
-					<div>起价：<span>￥206.98</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Ninja AR-15</div>					
-					<img src="../images/h1-NinjaAR.png">
-					<div>在售数量：<span>67</span></div>
-					<div>起价：<span>￥76.80</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Frostbite AR-15</div>					
-					<img src="../images/h1-icear.png">
-					<div>在售数量：<span>38</span></div>
-					<div>起价：<span>￥178.40</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Nemesis AR-15</div>					
-					<img src="../images/h1-yuanjihua.png">
-					<div>在售数量：<span>39</span></div>
-					<div>起价：<span>￥206.98</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Ninja AR-15</div>					
-					<img src="../images/h1-NinjaAR.png">
-					<div>在售数量：<span>67</span></div>
-					<div>起价：<span>￥76.80</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Nightmare Mask</div>					
-					<img src="../images/h1-black.png">
-					<div>在售数量：<span>26</span></div>
-					<div>起价：<span>￥1190.00</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Nightmare Mask</div>					
-					<img src="../images/h1-black.png">
-					<div>在售数量：<span>26</span></div>
-					<div>起价：<span>￥1190.00</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Nemesis AR-15</div>					
-					<img src="../images/h1-yuanjihua.png">
-					<div>在售数量：<span>39</span></div>
-					<div>起价：<span>￥206.98</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Ninja AR-15</div>					
-					<img src="../images/h1-NinjaAR.png">
-					<div>在售数量：<span>67</span></div>
-					<div>起价：<span>￥76.80</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Nightmare Mask</div>					
-					<img src="../images/h1-black.png">
-					<div>在售数量：<span>26</span></div>
-					<div>起价：<span>￥1190.00</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li>
-					<div class="title">Nightmare Mask</div>					
-					<img src="../images/h1-black.png">
-					<div>在售数量：<span>26</span></div>
-					<div>起价：<span>￥1190.00</span></div>
-					<div class="btn">购买</div>
-				</li>
-				<li></li>
-				<li></li>
+			<ul id="product_list">
+			
 			</ul>
 		</div>
 	</div>
 	
 	<script type="text/html" id="list_template">
 		{{each products as product}}
-		<div>
-			<div class="title">{{product.title}}</div>
-			<div class="price">{{product.price}}</div>
-			<div class="add">加入购物车</div>
-		</div>
+		<li>
+			<div class="title">{{product.title}}</div>					
+			<img src="{{product.img}}">
+			<div>在售数量：<span>{{product.num}}</span></div>
+			<div>起价：<span>{{product.title}}</span></div>
+			<div class="btn">购买</div>
+		</li>
 		{{/each}}
 	</script>
 	<div class="footer"></div>
