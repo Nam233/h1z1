@@ -1,6 +1,18 @@
 require(["config"], function(){
 	require(["load"], function(){
-		$("#h1z1_li").click(function(){
+		$("#h1z1_li").on('click','li',function(){
+			location.href="/html/list.html";
+		});
+		$(".main .product .kind .title").on('click','span',function(){
+			location.href="/html/list.html";
+		});
+		$(".main .product .kind ul li").on('click','img',function(){
+			location.href="/html/list.html";
+		});
+		$(".main .product .kind ul li").on('click','.titie',function(){
+			location.href="/html/list.html";
+		});
+		$(".main .product .kind ul li").on('click','.btn',function(){
 			location.href="/html/list.html";
 		});
 		var hhh = 0;
@@ -19,6 +31,7 @@ require(["config"], function(){
 			circles = $("i",$(".banner")[0]);
 			circles[0].className = "current";
 		var move = (function(){
+			clearInterval(timer);
 			hhh = -1 *nextIndex * 660;
 			if(hhh <= -660 * len)
 				hhh = 0;

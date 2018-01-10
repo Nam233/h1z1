@@ -5,11 +5,19 @@ define(["jquery", "cookie"], function($){
 		$(".header").html(data);
 	}).done(function(){
 		// 如果有用户登录成功，则显示欢迎信息
-		var user = $.cookie("loginUser");
-		if (user)
-			$(".login_reg").html("欢迎你：<a href='personal.html'>"+ user +"</a>")
+		var user = $.cookie("username");
+		console.log(user);
+		if (user && user!= "null")
+			$(".login_reg").html("欢迎你：<a href='#'> "+ user +" </a> <a  class='exit'>  &nbsp;退出登录</a>");
+		else
+			$(".login_reg").html("<a href='/html/login.html'>请登录</a> <a href='/html/register.html'>免费注册</a>");
+	}).done(function(){
+			$(".login_reg").on('click','.exit',function(){
+			$.cookie('username',null, { expires: 7, path: '/' }); 
+			$(".login_reg").html("<a href='/html/login.html'>请登录</a> <a href='/html/register.html'>免费注册</a>");
+		});
 	});
-
+	
 	// 将 footer.html 加载显示到 div.footer 中
 	$(".footer").load("/html/include/footer.html");
 });

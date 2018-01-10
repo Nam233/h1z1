@@ -19,6 +19,7 @@ require(["config"], function(){
 					});
 				if(allow){
 					alert("登录成功");
+					$.cookie('username', username, { expires: 7, path: '/' });
 					location.href="/index.html";
 				}	
 				else{
