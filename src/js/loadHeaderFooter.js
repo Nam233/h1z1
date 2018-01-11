@@ -20,7 +20,6 @@ define(["jquery", "cookie"], function($){
 				$(".login_reg").html("<a href='/html/login.html'>请登录</a> <a href='/html/register.html'>免费注册</a>");
 			});
 		});
-	
 	// 将 footer.html 加载显示到 div.footer 中
 	$(".footer").load("/html/include/footer.html");
 });

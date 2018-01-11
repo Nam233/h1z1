@@ -54,10 +54,10 @@ require(["config"], function(){
 		});
 		console.log($(".banner")[0]);
 		var timer = setInterval(move, duration);
-		$(".banner ul").mouseenter(function(){
+		$(".banner ").mouseover(function(){
 			clearInterval(timer);
 		});
-		$(".banner ul").mouseleave(function(){
+		$(".banner ").mouseout(function(){
 			timer = setInterval(move,duration);
 		});
 		for(let i = 0;i < len;i++){

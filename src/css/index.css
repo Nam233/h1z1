@@ -143,12 +143,12 @@ nav .content > ul > li ul li img {
   background-color: #317487;
   margin-right: 10px;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .banner .circle .current {
   background-color: #184C86;
   width: 35px;
-  transition: all 0.2s;
 }
 
 .product {
