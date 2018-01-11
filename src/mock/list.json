@@ -7,16 +7,17 @@
 			{"id":2, "title":"Ninja AR-15", "price":"￥76.80","img":"/images/h1-NinjaAR.png","num":67},
 			{"id":4, "title":"Frostbite AR-15", "price":"￥178.40","img":"/images/h1-icear.png","num":38},
 			{"id":5, "title":"Patriotic AR-15", "price":"￥1126.98","img":"/images/h1-amr.png","num":33},
-			{"id":2, "title":"Ninja AR-15", "price":"￥76.80","img":"/images/h1-NinjaAR.png","num":67},
+			{"id":7, "title":"Cigar Hog Mask", "price":"￥205.95","img":"/images/h1-pig.png","num":63},
 			{"id":3, "title":"Nemesis AR-15", "price":"￥206.98","img":"/images/h1-yuanjihua.png","num":39},
-			{"id":6, "title":"Nightmare Mask", "price":"￥1190.00","img":"/images/h1-black.png","num":26},{"id":2, "title":"Ninja AR-15", "price":"￥76.80","img":"/images/h1-NinjaAR.png","num":67},
-			{"id":2, "title":"Ninja AR-15", "price":"￥76.80","img":"/images/h1-NinjaAR.png","num":67},
-			{"id":1, "title":"Nightmare Mask", "price":"￥1190.00","img":"/images/h1-black.png","num":26},
-			{"id":3, "title":"Nemesis AR-15", "price":"￥206.98","img":"/images/h1-yuanjihua.png","num":39},
-			{"id":4, "title":"Frostbite AR-15", "price":"￥178.40","img":"/images/h1-icear.png","num":38},
-			{"id":5, "title":"Patriotic AR-15", "price":"￥1126.98","img":"/images/h1-amr.png","num":33},
-			{"id":3, "title":"Nemesis AR-15", "price":"￥206.98","img":"/images/h1-yuanjihua.png","num":39},
-			{"id":2, "title":"Ninja AR-15", "price":"￥76.80","img":"/images/h1-NinjaAR.png","num":67}
+			{"id":6, "title":"Gorilla Warfare Full Helmet", "price":"￥40.00","img":"/images/h1-smoke.png","num":29},
+			{"id":2, "title":"Rainbow Unicorn Mask", "price":"￥32.95","img":"/images/h1-rainbow.png","num":33},
+			{"id":8, "title":"Wasteland Skull Helmet", "price":"￥46.99","img":"/images/h1-yellow.png","num":129},
+			{"id":1, "title":"Rasta Backpack", "price":"￥121.11","img":"/images/bag.png","num":63},
+			{"id":3, "title":"Toxic Gloves", "price":"￥288.90","img":"/images/h1-gas.png","num":61},
+			{"id":4, "title":"Toxic Body Armor", "price":"￥2080.00","img":"/images/h1-Armor.png","num":6},
+			{"id":5, "title":"Police Shirt", "price":"￥102.50","img":"/images/h1-police.png","num":28},
+			{"id":3, "title":"Red Bone Full Helmet", "price":"￥29.50","img":"/images/h1-red.png","num":73},
+			{"id":2, "title":"Pwny Express Military Backpack", "price":"￥15.00","img":"/images/h1-pwny.png","num":63}
 			
 			
 		]

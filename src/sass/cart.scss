@@ -39,7 +39,6 @@ body{
 			}
 		}
 		tbody{
-			background-color: #151F2C;
 			tr{
 				display: table-row;
     			vertical-align: inherit;
@@ -49,11 +48,20 @@ body{
 					height: 80px;
 					color: #C9C9C9;
 					font-weight: 300;
+					background-color: #151F2C;
+					border-bottom: 20px solid #121c27;
 					>img{
 						width: 70px;
 						height: 70px;
 					}
+					>i{
+						margin:0 20px;
+						cursor: pointer;
+					}
 				}
+				.del{
+						cursor: pointer;
+					}
 				.green{
 					color: #429605;
 				}

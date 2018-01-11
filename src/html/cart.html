@@ -26,15 +26,7 @@
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td><img src="../images/h1-amr.png"></td>
-                <td width="25%">Patriotic AR-15</td>
-                <td width="15%"></td>
-                <td>1</td>
-                <td>￥1089.99</td>
-                <td class="green">￥1089.99</td>
-                <td>X</td>
-            </tr>
+
             </tbody>
         </table> 
         <div class="return" id="_return">
@@ -66,24 +58,26 @@
         </div>  
         <div class="pay">
         	<div class="money">
-        		<div>购物车数量： <span>1</span> </div>
-        		<div>购物车总金额：<span> ￥1089.99  </span> </div>
-        		<div>银行手续费： <span> ￥0.00  </span> </div>
-        		<div>实际支付金额：  <span> ￥1089.99   </span> </div>
+        		<div>商品数量： <span class="cart_num">1</span> </div>
+        		<div>购物车总金额：<span class="cart_money"> ￥1089.99  </span> </div>
+        		<div>银行手续费： <span class="cart_sx"> ￥0.00  </span> </div>
+        		<div>实际支付金额：  <span class="cart_money_all"> ￥1089.99   </span> </div>
         	</div>
-        	<div class="btn">支付</div>
+        	<div class="btn" id="pay_btn">支付</div>
         </div>                  
 	</div>
 	<div class="footer"></div>
     <script type="text/html" id="list_template">
         {{each products as product}}
-        <li>
-            <div class="title">{{product.title}}</div>                  
-            <img src="{{product.img}}">
-            <div>在售数量：<span>{{product.num}}</span></div>
-            <div>起价：<span>{{product.price}}</span></div>
-            <div class="btn">购买</div>
-        </li>
+        <tr>
+            <td><img src="{{product.img}}"></td>
+            <td class="title" width="25%">{{product.title}}</td>
+            <td width="15%"></td>
+            <td ><i class="count">-</i><i class="num">{{product.amount}}</i><i class="add">+</i></td>
+            <td>￥{{product.price}}</td>
+            <td class="green">￥{{(product.amount*product.price).toFixed(2)}}</td>
+            <td class="del">X</td>
+        </tr>
         {{/each}}
     </script>
 </body>
